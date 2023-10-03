@@ -6,17 +6,14 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
-/*.container {
-	max-width: 390px;
-    margin: 0 auto;
-}*/
+.wrapper {
+    height: 100%;
+}
 
 .container {
-    max-width: 390px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+	max-width: 390px;
+    margin: 0 auto;
+}
 
 .inner {
 	display: grid;

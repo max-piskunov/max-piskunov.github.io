@@ -6,10 +6,19 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
-.container {
+/*.container {
 	max-width: 390px;
     margin: 0 auto;
-}
+}*/
+
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .inner {
 	display: grid;
